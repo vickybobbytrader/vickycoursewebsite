@@ -1,0 +1,52 @@
+/* Base styles */
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #1e88e5;
+    --accent-color: #0d47a1;
+    --text-color: #333333;
+    --text-light: #ffffff;
+    --background-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Utility classes */
+/* From Uiverse.io by adamgiebl */ 
+.cta-button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:  #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  }
+  
+  .cta-button:hover {
+    border: 1px solid white;
+  }
+  
+  
+  
+
